@@ -1,0 +1,111 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('images/hd-wallpaper-3563462_1280.jpg');
+    height: 0px;
+}
+
+.left {
+    position: absolute;
+    left: 19px;
+    top: 8px;
+    display: inline-block;
+    /* border: 2px solid rgb(0, 200, 255); */
+}
+
+.left img {
+    width: 100px;
+}
+
+.mid {
+    /* display: block; */
+    width: 33%;
+    margin: 8px auto;
+    /* border: 2px solid rgb(167, 196, 130); */
+}
+
+.right {
+    position: absolute;
+    right: 19px;
+    top: 8px;
+    display: inline-block;
+    /* border: 2px solid rgb(102, 0, 255); */
+}
+
+.navbar {
+    /* display:     ; */
+    width: max-content;
+    margin: 0px;
+    padding: 0px;
+    /* border: 15px; */
+}
+
+.navbar li {
+    color: rgb(243, 232, 232);
+    display: inline-block;
+    font-size: 15px;
+
+}
+
+.navbar li a {
+    color: rgb(233, 233, 229);
+    text-decoration: none;
+    padding: 2px 17px;
+    font-size: 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(93, 94, 89);
+}
+
+.btn {
+    margin: 0px 4px;
+    padding: 3px 4px;
+    color: white;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+.container {
+    border: 2px solid rgb(244, 247, 245);
+    margin: 100px 621px;
+    padding: 46px 25px;
+    width: 29%;
+    border-radius: 30px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 325px;
+    padding: 3px;
+    margin: 3px;
+    border: 2px solid rgb(17, 3, 3);
+    font-size: 15px;
+    border-radius: 8px;
+
+}
+
+.form-group h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 90%;
+    margin: 12px 3px;
+    border-radius: 6px;
+    background: black;
+    color: aliceblue;
+    border: 1px solid white;
+}
